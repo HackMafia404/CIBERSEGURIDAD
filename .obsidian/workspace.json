@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LINUX/Scripting/Introduccion.md",
+                "file": "LINUX/Scripting/Ejercicios/Ruleta.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduccion"
+              "title": "Ruleta"
             }
           }
         ]
@@ -168,21 +168,24 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "d4cf71a595fc142a",
+  "active": "e611bd4a2573c264",
   "lastOpenFiles": [
+    "LINUX/Scripting/Ejercicios/Ruleta.md~",
+    "LINUX/Scripting/Introduccion.md",
+    "LINUX/Scripting/Ejercicios/Ruleta.md",
+    "prueba/Obsidian/LINUX/Scripting/Introduccion.md",
+    "prueba/Obsidian/LINUX/Scripting",
+    "prueba/Obsidian/LINUX/Introduccion.md",
+    "prueba/Obsidian/LINUX",
+    "prueba/Obsidian",
+    "prueba",
+    "LINUX/Introduccion.md",
     "LINUX/Scripting/Ejercicios/Obsidian",
     "LINUX/Scripting/Introduccion.md~",
     "LINUX/Scripting/Ejercicios",
-    "LINUX/Introduccion.md",
-    "LINUX/Scripting/Introduccion.md",
     "LINUX/Comandos",
     "LINUX/Scripting",
-    "LINUX/Introduccion.md~",
     "LINUX/USO_DE_MARKDOWN.md",
-    "LINUX/USO_DE_MARKDOWN.md~",
-    "LINUX/Sin nombre/USO_DE_MARKDOWN.md",
-    "LINUX/Sin nombre/USO_DE_MARKDOWN.pdf",
-    "LINUX",
-    "LINUX/Sin nombre"
+    "LINUX/Sin nombre/USO_DE_MARKDOWN.md"
   ]
 }
