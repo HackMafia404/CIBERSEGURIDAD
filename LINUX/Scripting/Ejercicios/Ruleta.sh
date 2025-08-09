@@ -34,23 +34,33 @@ function martingala(){
   
   tput civis
   
+  backup=$inicial
+
   while true; do   
+    money="$(($money-$inicial))"
+    echo -e "\n${y}[+]${e} ${gr}Acabas de apostar${e} ${y}$inicial$ ${e}${gr}y tu Saldo actual es${e} ${y}$money${e}"
     random_number="$(($RANDOM % 37))"
-    echo -e "[+] EL numero que ha salido es el $random_number"
-    
-    if [ "$(($random_number % 2))" -eq 0 ]; then
-      if [ "$random_number" -eq 0 ]; then
-        echo -e "[+] Juego Perdido"
+    echo -e "${y}[+]${e} ${gr}EL numero que ha salido es el${e} ${y}$random_number${e}"
+    if [ $par_impar == "par" ]; then
+      if [ "$(($random_number % 2))" -eq 0 ]; then
+        if [ "$random_number" -eq 0 ]; then
+          echo -e "${r}[+] Juego Perdido${e}"
+        else
+          echo -e "${y}[+]${e} ${gr}El numero que ha salido es par${e} ${g}!ganas!${e}"
+          reward="$(($inicial*2))"
+          echo -e "${y}[+]${e} ${gr}Has ganado la suma de${e} ${y}$reward$ ${e}"
+          money="$(($money+$reward))"
+          echo -e "${y}[+]${e} ${gr}Tienes un saldo de${e} ${y}$money${e}"
+          inicial=$backup
+        fi
       else
-        echo -e "[+] El numero que ha salido es par"
-      fi
-    else
-      echo -e "[+] El numero que ha salido es impar"
+        echo -e "${y}[+]${e} ${gr}El numero que ha salido es impar${e} ${r}!Pierdes!${e}"
+        inicial=$(($inicial*2))
+      fi  
     fi
     sleep 1
   done
-   tput cnorm
- }
+}
 
 #Definiendo Menu de parametros
 while getopts "m:t:h" arg; do
