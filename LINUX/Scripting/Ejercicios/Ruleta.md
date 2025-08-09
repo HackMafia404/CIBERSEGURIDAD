@@ -108,7 +108,25 @@ function martingala(){
     ```Bash
     echo $(($RANDOM % 37))
     ```
+- **Bucle de Iteracion de numeros Randoms**
 
+    ```Bash
+      while true; do   
+    random_number="$(($RANDOM % 37))"
+    echo -e "[+] EL numero que ha salido es el $random_number"
+    
+    if [ "$(($random_number % 2))" -eq 0 ]; then
+      if [ "$random_number" -eq 0 ]; then
+        echo -e "[+] Juego Perdido"
+      else
+        echo -e "[+] El numero que ha salido es par"
+      fi
+    else
+      echo -e "[+] El numero que ha salido es impar"
+    fi
+    sleep 1
+  done
+    ```
 
 
 

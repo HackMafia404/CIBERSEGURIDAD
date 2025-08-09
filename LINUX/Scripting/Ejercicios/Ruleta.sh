@@ -31,12 +31,19 @@ function martingala(){
   echo -ne "\n${y}[+]${e} ${gr}¿Cuanto dinero quieres Apostar?${e} ${y}->${e} " && read inicial
   echo -ne "\n${y}[+]${e} ${gr}¿A que deseas Apostar ${b}(${e}${y}par${e}${p}/${e}${y}impar${e}${b})${e}${y}${gr}?${e} ${y}->${e} " && read par_impar
   echo -e "\n${y}[+]${e} ${gr}Vamos a jugar con${e} ${y}$inicial${e} ${gr}a${e} ${y}$par_impar${e}"
+  
   tput civis
+  
   while true; do   
     random_number="$(($RANDOM % 37))"
     echo -e "[+] EL numero que ha salido es el $random_number"
+    
     if [ "$(($random_number % 2))" -eq 0 ]; then
-      echo -e "[+] El numero que ha salido es par"
+      if [ "$random_number" -eq 0 ]; then
+        echo -e "[+] Juego Perdido"
+      else
+        echo -e "[+] El numero que ha salido es par"
+      fi
     else
       echo -e "[+] El numero que ha salido es impar"
     fi
