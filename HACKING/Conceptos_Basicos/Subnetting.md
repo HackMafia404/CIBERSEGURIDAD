@@ -81,7 +81,7 @@
                 > Escribe 26 unos seguidos y luego los ceros que faltan:
                 > 11111111.11111111.11111111.11000000
                 > Agrupa en bloques de 8 bits:
-                > 11111111  11111111  11111111  11111111.0000000 
+                > 11111111  11111111  11111111  11000000
                 
             - Convierte cada bloque binario a decimal:
                 > 11111111 → 255 
@@ -89,7 +89,24 @@
                 > 11111111 → 255 
                 > 11000000 → 192
 
-    > Máscara /26 = 255.255.255.192
+                > Máscara /26 = 255.255.255.192
+
+2. **Calculo de total de hosts a repartir**
+    - **Formula General**
+        - N° bits de la mascara de red - 32 Bits totales / el igual es el exponente de 2 - 2 hosts el primero y el ultimo
+            -  Ejemplo 1
+                > Máscara: 255.255.255.0 → /24 
+                > Bits de host = 32−24=8 
+                > 2<sup>8</sup>
+
+
+🔹 Ejemplo 2
+
+Máscara: 255.255.255.192 → /26
+
+    Bits de host = 32−26=632−26=6
+
+    Total de hosts = 26−2=64−2=6226−2=64−2=62
 
 
 
