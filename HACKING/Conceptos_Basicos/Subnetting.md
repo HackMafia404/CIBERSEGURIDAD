@@ -24,3 +24,26 @@
     - se deben escribir los bits “1” en los primeros bits de una dirección IP de 32 bits y los bits “0” en los bits restantes. 
         - Por ejemplo, la máscara de red /24 se calcularía como 11111111.11111111.11111111.00000000 en binario
             - lo que equivale a 255.255.255.0 en decimal.
+
+---
+
+## CIDR
+
+- CIDRs (Classless Inter-Domain Routing) 
+    - método de asignación de direcciones IP que permite dividir una dirección IP en una parte que identifica la red y otra parte que identifica el host. 
+        - Esto se logra mediante el uso de una máscara de red, que se representa en notación CIDR como una dirección IP base seguida de un número que indica la cantidad de bits que corresponden a la red.
+
+- Con CIDR, se pueden asignar direcciones IP de forma más precisa
+    - lo que reduce la cantidad de direcciones IP desperdiciadas y facilita la administración de la red.
+
+- El número que sigue a la dirección IP base en la notación CIDR se llama prefijo o longitud de prefijo 
+    - representa el número de bits en la máscara de red que están en “1“.
+
+        > Por ejemplo, una dirección IP con un prefijo de /24 indica que los primeros 24 bits de la dirección IP corresponden a la red 
+        > mientras que los 8 bits restantes se utilizan para identificar los hosts.
+
+- Para calcular la cantidad de hosts disponibles en una red CIDR 
+    - se deben contar el número de bits “0” en la máscara de red y elevar 2 a la potencia de ese número. 
+        - Esto se debe a que cada bit “0” en la máscara de red representa un bit que se puede utilizar para identificar un host.
+
+            > Por ejemplo, una máscara de red de 255.255.255.0 (/24) tiene 8 bits en “0“, lo que significa que hay 2^8 = 256 direcciones IP disponibles para los hosts en esa red.
