@@ -29,6 +29,5 @@ En redes de ordenadores, el modelo OSI (Open Systems Interconnection) es una est
 7. Capa de aplicación: La capa de aplicación proporciona servicios para aplicaciones, entre usuarios finales.
     - Correo electrónico, navegadores web y transferencia de archivos.
 
-```
 > Comprender la estructura en capas del modelo OSI es esencial para cualquier analista de seguridad, ya que permite tener una visión completa del funcionamiento de la red y de las posibles vulnerabilidades que puedan existir en cada una de las capas. Esto nos permite identificar de manera efectiva los puntos débiles de la red y aplicar medidas de se| guridad adecuadas para protegerla de posibles ataques
-```
+
