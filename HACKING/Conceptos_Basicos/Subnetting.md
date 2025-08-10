@@ -133,7 +133,41 @@
 
         > 11000000.10101000.00001010.00000000
         
-        > Network ID 192.168.10.0 
+        > Network ID 192.168.10.0
+
+4. **Calculo de Broadcast Adress**
+    - Datos que necesitas
+        - Dirección IP - Máscara de subred (o el prefijo en notación CIDR, por ejemplo /24)
+    - Obtener la dirección en binario
+        > Ejemplo:
+        IP: 192.168.10.25
+        Máscara: 255.255.255.0
+
+En binario:
+
+IP:     11000000.10101000.00001010.00011001
+Máscara:11111111.11111111.11111111.00000000
+
+Paso 2 – Invertir la máscara
+
+Esto se llama wildcard mask (o máscara comodín).
+Invertir significa cambiar 1→0 y 0→1:
+
+Máscara invertida: 00000000.00000000.00000000.11111111
+
+Paso 3 – Calcular el Broadcast
+
+Se hace un OR bit a bit entre la IP y la máscara invertida.
+
+Ejemplo:
+
+IP:              11000000.10101000.00001010.00011001
+Máscara invertida:00000000.00000000.00000000.11111111
+Resultado (OR):  11000000.10101000.00001010.11111111
+
+En decimal:
+
+192.168.10.255
 
 
 
