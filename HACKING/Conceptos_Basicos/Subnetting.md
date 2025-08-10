@@ -103,6 +103,7 @@
            - Ejemplo 2 
                 > Máscara: 255.255.255.192 → /26 
                 > Bits de host = 32−26 = 6
+                
                 > 2<sup>6</sup> = 64-2 
                 > Total hosts 62 
 
