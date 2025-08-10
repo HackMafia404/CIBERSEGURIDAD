@@ -105,5 +105,9 @@
 - 4500: NAT-T (NAT Traversal)
     - Encapsulación de IPsec para atravesar NAT  
 - 5353: mDNS (mDNS: Multicast DNS)
-    - Resolución de nombres en redes locales  
+    - Resolución de nombres en redes locales
 
+```Markdown
+Cabe destacar que estos son solo algunos de los más comunes. 
+Existen muchos más puertos los cuales operan tanto por TCP como por UDP.
+```
