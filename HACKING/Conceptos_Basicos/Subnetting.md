@@ -58,7 +58,9 @@
 ---
 
 > Una dirección IP con un prefijo de /28 (255.255.255.240) permite hasta 16 direcciones IP para los hosts (2^4), ya que los primeros 28 bits corresponden a la red.
+
 > Una dirección IP con un prefijo de /26 (255.255.255.192) permite hasta 64 direcciones IP para los hosts (2^6), ya que los primeros 26 bits corresponden a la red.
+
 > Una dirección IP con un prefijo de /22 (255.255.252.0) permite hasta 1024 direcciones IP para los hosts (2^10), ya que los primeros 22 bits corresponden a la red.
 
 
