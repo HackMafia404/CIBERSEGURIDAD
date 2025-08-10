@@ -63,6 +63,36 @@
 
 > Una dirección IP con un prefijo de /22 (255.255.252.0) permite hasta 1024 direcciones IP para los hosts (2^10), ya que los primeros 22 bits corresponden a la red.
 
+### CALCULOS CIDR
+
+1. **Calculo de la mascara de red**
+    - Una máscara de red indica qué parte de la dirección IP es red y qué parte es host.
+    - En binario, los 1 representan la parte de red. Los 0 representan la parte de host.
+
+    > Ejemplo:
+
+    >Máscara /24  →  255.255.255.0
+    >En binario:  11111111.11111111.11111111.00000000
+
+    - Calcular máscara a partir de un /n (CIDR)
+
+        - Supongamos que tenemos /26:
+            - Esto significa 26 bits en 1 (red) y 6 bits en 0 (host) en total (IPv4 son 32 bits)
+                > Escribe 26 unos seguidos y luego los ceros que faltan:
+                > 11111111.11111111.11111111.11000000
+                > Agrupa en bloques de 8 bits:
+                > 11111111  11111111  11111111  11111111.0000000 
+                
+            - Convierte cada bloque binario a decimal:
+                > 11111111 → 255 
+                > 11111111 → 255 
+                > 11111111 → 255 
+                > 11000000 → 192
+
+    > Máscara /26 = 255.255.255.192
+
+
+
 
 
 
