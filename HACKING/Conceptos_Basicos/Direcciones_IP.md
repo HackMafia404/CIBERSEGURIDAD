@@ -4,19 +4,26 @@
 
 Las direcciones IP son identificadores numéricos únicos que se utilizan para identificar dispositivos en una red, como ordenadores, routers, servidores y otros dispositivos conectados a Internet.
 
+---
+
 **Existen dos versiones de direcciones IP:** 
 
 - IPv4 
     - Utiliza un formato de dirección de 32 bits y se utiliza actualmente en la mayoría de las redes. 
     - Se representan como cuatro numeros separados por un punto: **192.168.0.1** 
-    ```Bash
+   
+   ```Bash
     echo "$(echo "obase=2; 192" | bc ).$(echo "obase=2; 168" | bc).$(echo "obase=2; 0" | bc).$(echo "obase=2; 1" | bc)"
 11000000.10101000.0.1
     ```
+---
+
 - IPv6 
     - Utiliza un formato de dirección de 128 bits 
     - Se está implementando gradualmente en todo el mundo para hacer frente a la escasez de direcciones IPv4.
     - Se representan con notacion **Hexadecimal** como: **2001:0db8:853d:0000:0000:8a2e:037c:7334**
+
+---
 
 ## Direcciones MAC
 
