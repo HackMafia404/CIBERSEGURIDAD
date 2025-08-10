@@ -106,6 +106,34 @@
                 > 2<sup>6</sup> = 64-2 
                 > Total hosts 62 
 
+3. **Calculo de Network ID**
+    - Tener los datos
+        - Dirección IP - Máscara de subred (en formato decimal o CIDR)
+            > IP:        192.168.10.25 
+            > Máscara:   255.255.255.0  (/24)
+    - Convertir a binario 
+        - Cada octeto se pasa a binario:
+        > IP:
+        > 192    .168    .10     .25 
+        > 11000000.10101000.00001010.00011001
+
+        > Máscara:
+        > 255    .255    .255    .0 
+        > 11111111.11111111.11111111.00000000
+
+    - Aplicar operación AND bit a bit 
+        - Se hace un AND lógico entre cada bit de la IP y de la máscara:
+            > 11000000.10101000.00001010.00011001
+            > AND
+            > 11111111.11111111.11111111.00000000
+            > Igual
+            > 11000000.10101000.00001010.00000000
+
+    - Convertir el resultado a decimal
+
+        > 11000000.10101000.00001010.00000000
+        > 192.168.10.0 
+            **Ese es el Network ID.**
 
 
 
