@@ -1,4 +1,4 @@
-# INTRODUCCION AL Hacking
+# INTRODUCCION AL HACKING
 
 En la era digital, la información se ha convertido en uno de los activos más valiosos del mundo.
 
