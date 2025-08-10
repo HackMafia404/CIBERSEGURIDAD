@@ -107,7 +107,5 @@
 - 5353: mDNS (mDNS: Multicast DNS)
     - Resolución de nombres en redes locales
 
-```Markdown
-Cabe destacar que estos son solo algunos de los más comunes. 
+> Cabe destacar que estos son solo algunos de los más comunes. 
 Existen muchos más puertos los cuales operan tanto por TCP como por UDP.
-```
