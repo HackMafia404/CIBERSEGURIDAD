@@ -166,6 +166,24 @@
             > 192.168.10.255
 
 
+## FORMA ARITMETICA DE CALCULO 
+
+- Esta es la mejor forma de calcular velozmente el Network ID, la máscara de red y la Broadcast Address, en base a una dirección IP y CIDR que el cliente nos pase. 
+
+    1. Identificar la ID y el CIDR y pasar a binario
+        >127.14.15.16/17
+        01111111.00001110.00001111.00010000 (127.14.15.16)
+    2. Hallar Mascara:Wq de red
+        >11111111.11111111.10000000.00000000 (255.255.128.0)
+    3. Realizar un AND entre la ip en binario y la mascara de red
+       >01111111.00001110.00001111.00010000 (127.14.15.16)
+        11111111.11111111.10000000.00000000 (255.255.128.0)
+  AND = 01111111.00001110.00001111.00000000 (127.14.15.0) NETWORK ID 
+
+    4. El faltante del total inicial del CIDR se utilizara para la parte de hosts (ultima)
+        >32-17 = 15 
+        01111111.00001110.01111111.11111111 (127.14.127.255) BROADCAST ADRESS
+          
 
 
 
