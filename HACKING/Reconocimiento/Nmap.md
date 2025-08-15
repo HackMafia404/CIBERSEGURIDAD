@@ -117,6 +117,8 @@ Cuando se realizan pruebas de penetración, uno de los mayores desafíos es evad
 
 Es importante destacar que, además de las técnicas de evasión mencionadas anteriormente, existen muchas otras opciones en Nmap que pueden ser utilizadas para realizar pruebas de penetración efectivas y evadir la detección del Firewall. Sin embargo, las técnicas que hemos mencionado son algunas de las más populares y ampliamente utilizadas por los profesionales de seguridad para superar los obstáculos que presentan los Firewalls en la realización de pruebas de penetración.
 
+---
+
 # SCRIPTS 
 
 Nmap es una herramienta muy completa, a parte de todos los parametros que tiene para el escaneo y reconocimiento de puertos, tambien tiene un aparto de scripts que permite al usuario ejecutar.
@@ -131,6 +133,17 @@ Nmap es una herramienta muy completa, a parte de todos los parametros que tiene 
      
 >En conclusión, el uso de scripts y categorías en Nmap es una forma efectiva de automatizar tareas de reconocimiento y descubrimiento en la red. El parámetro –script permite al usuario seleccionar un conjunto de scripts personalizados para ejecutar en un objetivo de escaneo específico, mientras que las diferentes categorías disponibles en Nmap se enfocan en realizar tareas específicas para obtener información valiosa sobre la red.
 
+# DESCUBRIMIENTO DE hosts
+
+- El descubrimiento de equipos en la red local es una tarea fundamental en la gestión de redes y en las pruebas de seguridad. Existen diferentes herramientas y técnicas para realizar esta tarea, que van desde el escaneo de puertos hasta el análisis de tráfico de red.
+
+    - Entre los modos de escaneo que se explican, se encuentra el uso del parámetro ‘-sn‘ de Nmap, que permite realizar un escaneo de hosts sin realizar el escaneo de puertos.         - También se presentan las herramientas netdiscover, arp-scan y masscan, que utilizan el protocolo ARP para descubrir hosts en la red.
+
+    - Netdiscover es una herramienta simple y fácil de usar, pero puede ser menos precisa que arp-scan o masscan.
+    - arp-scan y masscan son herramientas más potentes, capaces de descubrir hosts más rápido y en redes más grandes, pero también son más complejas y pueden requerir más recursos.
+
+
+>En definitiva, el descubrimiento de equipos en la red local es una tarea fundamental para cualquier administrador de redes o profesional de seguridad de la información. Con las técnicas y herramientas adecuadas, es posible realizar esta tarea de manera efectiva y eficiente.
 
 
 
