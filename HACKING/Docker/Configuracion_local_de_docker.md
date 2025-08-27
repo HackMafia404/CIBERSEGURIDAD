@@ -43,7 +43,7 @@
             - docker pull ubuntu:latest
 
 - docker images: es el comando que se utiliza para listar las imágenes de Docker que están disponibles en el sistema.
-    -. docker images [opciones]
+    >docker images [opciones]
 
 ## DESPLIEGUE DE PRIMER CONTENEDOR 
 
@@ -70,11 +70,39 @@
     - “-i” o “–interactive“: se utiliza para permitir la entrada interactiva al contenedor.
     - “-t” o “–tty“: se utiliza para asignar un seudoterminal al contenedor.
         - Por ejemplo, si se desea ejecutar el comando “bash” en el contenedor con el identificador “123456789“, se puede utilizar la siguiente sintaxis:
-            - docker exec -it 123456789 bash
+            >docker exec -it 123456789 bash
 
 
+## PORT FORWARDING
 
+- El port forwarding, también conocido como reenvío de puertos, nos permite redirigir el tráfico de red desde un puerto específico en el host a un puerto específico en el contenedor. Esto nos permitirá acceder a los servicios que se ejecutan dentro del contenedor desde el exterior.
+    - Para utilizar el port forwarding, se utiliza la opción “-p” o “–publish” en el comando “docker run“. Esta opción se utiliza para especificar la redirección de puertos y se puede utilizar de varias maneras. Por ejemplo, si se desea redirigir el puerto 80 del host al puerto 8080 del contenedor, se puede utilizar la siguiente sintaxis:
+        >docker run -p 80:8080 mi_imagen
+- Esto redirigirá cualquier tráfico entrante en el puerto 80 del host al puerto 8080 del contenedor. Si se desea especificar un protocolo diferente al protocolo TCP predeterminado, se puede utilizar la opción “-p” con un formato diferente. Por ejemplo, si se desea redirigir el puerto 53 del host al puerto 53 del contenedor utilizando el protocolo UDP, se puede utilizar la siguiente sintaxis:
+    >docker run -p 53:53/udp mi_imagen
 
+- Las monturas, por otro lado, nos permiten compartir un directorio o archivo entre el sistema host y el contenedor. Esto nos permitirá persistir la información entre ejecuciones de contenedores y compartir datos entre diferentes contenedores.
+    - Para utilizar las monturas, se utiliza la opción “-v” o “–volume” en el comando “docker run“. Esta opción se utiliza para especificar la montura y se puede utilizar de varias maneras. Por ejemplo, si se desea montar el directorio “/home/usuario/datos” del host en el directorio “/datos” del contenedor, se puede utilizar la siguiente sintaxis:
+        >docker run -v /home/usuario/datos:/datos mi_imagen
 
+- Esto montará el directorio “/home/usuario/datos” del host en el directorio “/datos” del contenedor. Si se desea especificar una opción adicional, como la de montar el directorio en modo de solo lectura, se puede utilizar la opción “-v” con un formato diferente. Por ejemplo, si se desea montar el directorio en modo de solo lectura, se puede utilizar la siguiente sintaxis:
+    >docker run -v /home/usuario/datos:/datos:ro mi_imagen
+
+## DESPLIEGUE DE LABORATORIOS 
+
+>AVISO: En caso de que veáis que no estáis pudiendo instalar ‘nano‘ o alguna utilidad en el contenedor, eliminad todo el contenido del archivo ‘/etc/apt/sources.list‘ existente en el CONTENEDOR y metedle esta línea:
+deb http://archive.debian.org/debian/ jessie contrib main non-free
+    Posteriormente, haced un ‘apt update‘ y probad a instalar nuevamente la herramienta que queráis, ya no os debería de dar problemas.
+
+- Si estáis enfrentando dificultades con el contenedor de Elasticsearch y notáis que el contenedor no se crea después de ejecutar ‘docker-compose up -d‘, intentad modificar un parámetro del sistema con el siguiente comando en la consola:
+    >sudo sysctl -w vm.max_map_count=262144‘.
+
+- Después de hacerlo, intentad de nuevo ejecutar ‘docker-compose up -d‘, se debería solucionar el problema.
+
+- proporcionamos el enlace al proyecto de Github que estamos usando para esta clase:
+    >Vulhub: https://github.com/vulhub/vulhub
+
+- Asimismo, por aquí os compartimos el enlace al recurso donde se nos ofrece el script en Javascript encargado de establecer la Reverse Shell:
+    >NodeJS Reverse Shell: https://github.com/appsecco/vulnerable-apps/tree/master/node-reverse-shell
 
 
