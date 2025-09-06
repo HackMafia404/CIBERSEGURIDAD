@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiFileTerminal",
+      "LiArrowBigRightDash",
+      "LiSquareTerminal",
       "LiBadgeAlert",
-      "LiAtom",
-      "📔",
-      "LiBookOpen",
-      "LiAlbum"
+      "LiAtom"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -34,7 +34,20 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "APUNTES": "LiAlbum",
-  "INDICE.md": "LiBookOpen",
-  "APUNTES/HACKING": "LiBadgeAlert"
+  "APUNTES": {
+    "iconName": "LiAlbum",
+    "iconColor": "#00ff11"
+  },
+  "APUNTES/1. LINUX": {
+    "iconName": "LiSquareTerminal",
+    "iconColor": "#00eeff"
+  },
+  "APUNTES/2. LINUX TUNING": {
+    "iconName": "LiFileTerminal",
+    "iconColor": "#0055ff"
+  },
+  "APUNTES/3. HACKING": {
+    "iconName": "LiBadgeAlert",
+    "iconColor": "#ff0000"
+  }
 }

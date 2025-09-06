@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8fa174142b078d61",
+        "id": "1521de8f36d18b52",
         "type": "tabs",
         "children": [
           {
-            "id": "077975a55af3675c",
+            "id": "f6f08c326e43586d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "INDICE.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "INDICE"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -40,7 +36,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byCreatedTimeReverse",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 395.5
   },
   "right": {
     "id": "c9d1f66e0ecec29f",
@@ -171,10 +167,22 @@
   },
   "active": "5ae83d5129c31a61",
   "lastOpenFiles": [
-    "APUNTES/HACKING",
-    "APUNTES.md",
+    "APUNTES/2. LINUX TUNING/6. NVCHAD",
+    "APUNTES/2. LINUX TUNING/5. CONFIGURACION POLYBAR",
+    "APUNTES/2. LINUX TUNING/4. POWERLEVEL10K",
+    "APUNTES/2. LINUX TUNING/3. KITTY Y FEH",
+    "APUNTES/2. LINUX TUNING/2. POLYBAR - PICOM - ROFI",
+    "APUNTES/2. LINUX TUNING/1. BSPWM Y SXHKD",
+    "APUNTES/2. LINUX TUNING",
+    "APUNTES/1. LINUX/7. SCRIPTING EN BASH",
+    "APUNTES/1. LINUX/6. GITHUB",
+    "APUNTES/1. LINUX/5. TAREAS CRON",
+    "APUNTES/1. LINUX/4. REDES Y COMUNICACIONES",
+    "2025-09-07.md",
+    "Sin título 1.canvas",
+    "Sin título.canvas",
     "INDICE.md",
-    "APUNTES",
+    "APUNTES.md",
     "HACKING/Conceptos_Basicos/Subnetting.md",
     "HACKING/Conceptos_Basicos/Puertos_TCP_UDP.md",
     "HACKING/Conceptos_Basicos/Modelo_OSI.md",
