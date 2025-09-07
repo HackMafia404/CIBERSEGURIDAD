@@ -65,12 +65,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "APUNTES/1. LINUX/INTRODUCCIÓN A LINUX.md",
+                "file": "APUNTES/INTRODUCCIÓN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "INTRODUCCIÓN A LINUX"
+              "title": "INTRODUCCIÓN"
             }
           }
         ],
@@ -222,10 +222,10 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "5ae83d5129c31a61",
+  "active": "292d9da5a8eec06b",
   "lastOpenFiles": [
-    "APUNTES/INTRODUCCIÓN.md",
     "APUNTES/1. LINUX/INTRODUCCIÓN A LINUX.md",
+    "APUNTES/INTRODUCCIÓN.md",
     "APUNTES/1. LINUX/1. COMANDOS/1.3 PERMISOS  Y USUARIOS.md",
     "APUNTES/1. LINUX/1. COMANDOS/1.2 ARCHIVOS Y CONTENIDOS.md",
     "APUNTES/1. LINUX/1. COMANDOS/1.0 COMANDOS.md",
