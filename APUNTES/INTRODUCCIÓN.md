@@ -23,4 +23,5 @@ Cada nota debe ser:
 - **Breve** → Ir directo al grano.  
 - **Ejecutable** → Incluir ejemplos prácticos y comandos listos para copiar.  
 - **Enlazada** → Usar links internos de Obsidian para conectar conceptos.  
----
+--- 
+[[INTRODUCCIÓN A LINUX]]

@@ -26,3 +26,4 @@ Cada nota sobre Linux debe ser:
 - **Enlazada** → conectar conceptos y secciones dentro de Obsidian.  
 
 ---
+[[1.0 INDICE LINUX]]

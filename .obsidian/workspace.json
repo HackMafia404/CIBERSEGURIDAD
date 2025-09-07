@@ -65,12 +65,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "APUNTES/1. LINUX/1. COMANDOS/1.0 INDICE.md",
+                "file": "APUNTES/1. LINUX/1. COMANDOS/1.3 PERMISOS  Y USUARIOS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.0 INDICE"
+              "title": "1.3 PERMISOS  Y USUARIOS"
             }
           }
         ],
@@ -222,14 +222,14 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "5ae83d5129c31a61",
+  "active": "292d9da5a8eec06b",
   "lastOpenFiles": [
-    "APUNTES/INTRODUCCIÓN.md",
-    "APUNTES/1. LINUX/INTRODUCCIÓN A LINUX.md",
-    "APUNTES/1. LINUX/1. COMANDOS/1.3 PERMISOS  Y USUARIOS.md",
     "APUNTES/1. LINUX/1. COMANDOS/1.2 ARCHIVOS Y CONTENIDOS.md",
-    "APUNTES/1. LINUX/1. COMANDOS/1.0 INDICE.md",
     "APUNTES/1. LINUX/1. COMANDOS/1.1 NAVEGACÍON Y GESTÍON.md",
+    "APUNTES/INTRODUCCIÓN.md",
+    "APUNTES/1. LINUX/1. COMANDOS/1.3 PERMISOS  Y USUARIOS.md",
+    "APUNTES/1. LINUX/1. COMANDOS/1.0 INDICE LINUX.md",
+    "APUNTES/1. LINUX/INTRODUCCIÓN A LINUX.md",
     "ARCHIVOS Y CONTENIDOS.md",
     "NAVEGACÍON Y GESTIÓN.md",
     "pwd.md",
