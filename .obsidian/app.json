@@ -1,3 +1,5 @@
 {
-  "readableLineLength": false
+  "readableLineLength": false,
+  "spellcheck": false,
+  "vimMode": false
 }

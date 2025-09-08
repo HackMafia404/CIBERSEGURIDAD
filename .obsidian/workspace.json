@@ -8,73 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "508f00f4fd3ba73a",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
-            }
-          },
-          {
-            "id": "46e81e60f0480214",
+            "id": "00ca7f11486cb078",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "APUNTES/1. LINUX/1. COMANDOS/1.2 ARCHIVOS Y CONTENIDOS.md",
+                "file": "APUNTES/1. LINUX/1. COMANDOS/1.6 REDES Y CONEXION.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.2 ARCHIVOS Y CONTENIDOS"
+              "title": "1.6 REDES Y CONEXION"
             }
           },
           {
-            "id": "3c8b108c19526c1e",
+            "id": "2243b0e1a57f4dd5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "APUNTES/1. LINUX/1. COMANDOS/1.3 PERMISOS  Y USUARIOS.md",
+                "file": "APUNTES/1. LINUX/2. PERMISOS Y ATRIBUTOS/2.1 PERMISOS Y ATRIBUTOS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.3 PERMISOS  Y USUARIOS"
-            }
-          },
-          {
-            "id": "9b23835c2d400575",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "APUNTES/1. LINUX/1. COMANDOS/1.2 ARCHIVOS Y CONTENIDOS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1.2 ARCHIVOS Y CONTENIDOS"
-            }
-          },
-          {
-            "id": "292d9da5a8eec06b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "APUNTES/1. LINUX/1. COMANDOS/1.3 PERMISOS  Y USUARIOS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1.3 PERMISOS  Y USUARIOS"
+              "title": "2.1 PERMISOS Y ATRIBUTOS"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Linux",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -222,14 +184,20 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "292d9da5a8eec06b",
+  "active": "2243b0e1a57f4dd5",
   "lastOpenFiles": [
+    "APUNTES/1. LINUX/1. COMANDOS/1.6 REDES Y CONEXION.md",
+    "APUNTES/1. LINUX/1. COMANDOS/1.5 COMPRESION Y EMPAQUETADO.md",
+    "APUNTES/1. LINUX/1. COMANDOS/1.4 PROCESOS Y SISTEMA.md",
+    "APUNTES/1. LINUX/1. COMANDOS/1.3 PERMISOS  Y USUARIOS.md",
     "APUNTES/1. LINUX/1. COMANDOS/1.2 ARCHIVOS Y CONTENIDOS.md",
     "APUNTES/1. LINUX/1. COMANDOS/1.1 NAVEGACÍON Y GESTÍON.md",
     "APUNTES/INTRODUCCIÓN.md",
-    "APUNTES/1. LINUX/1. COMANDOS/1.3 PERMISOS  Y USUARIOS.md",
-    "APUNTES/1. LINUX/1. COMANDOS/1.0 INDICE LINUX.md",
     "APUNTES/1. LINUX/INTRODUCCIÓN A LINUX.md",
+    "APUNTES/1. LINUX/1. COMANDOS/1.0 INDICE.md",
+    "APUNTES/1. LINUX/2. PERMISOS Y ATRIBUTOS/2.1 PERMISOS Y ATRIBUTOS.md",
+    "ramificacion.txt",
+    "journalctl.txt",
     "ARCHIVOS Y CONTENIDOS.md",
     "NAVEGACÍON Y GESTIÓN.md",
     "pwd.md",
@@ -241,8 +209,6 @@
     "APUNTES/2. LINUX TUNING/1. BSPWM Y SXHKD",
     "APUNTES/2. LINUX TUNING",
     "APUNTES/1. LINUX/7. SCRIPTING EN BASH",
-    "APUNTES/1. LINUX/6. GITHUB",
-    "APUNTES/1. LINUX/5. TAREAS CRON",
     "2025-09-07.md",
     "Sin título 1.canvas",
     "Sin título.canvas",
