@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2243b0e1a57f4dd5",
+            "id": "82715fad33f5267e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "APUNTES/1. LINUX/1. COMANDOS/1.1 NAVEGACÍON Y GESTÍON.md",
+                "file": "APUNTES/1. LINUX/3. SISTEMA Y CONFIGURACION/3.1.1 INTRODUCCION.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.1 NAVEGACÍON Y GESTÍON"
-            }
-          },
-          {
-            "id": "214e81576e5fa1cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "APUNTES/1. LINUX/2. PERMISOS Y ATRIBUTOS/2.2 PERMISOS ESPECIALES.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2.2 PERMISOS ESPECIALES"
+              "title": "3.1.1 INTRODUCCION"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,10 +169,14 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "214e81576e5fa1cc",
+  "active": "82715fad33f5267e",
   "lastOpenFiles": [
-    "APUNTES/1. LINUX/2. PERMISOS Y ATRIBUTOS/2.1 PERMISOS Y ATRIBUTOS.md",
+    "APUNTES/1. LINUX/1. COMANDOS/1.0 INDICE.md",
+    "APUNTES/1. LINUX/3. SISTEMA Y CONFIGURACION/3.1.1 INTRODUCCION.md",
+    "APUNTES/1. LINUX/3. SISTEMA Y CONFIGURACION/3.1 CONTROL DEL SISTEMA",
+    "APUNTES/1. LINUX/2. PERMISOS Y ATRIBUTOS/2.3 ATRIBUTOS EXTENDIDOS.md",
     "APUNTES/1. LINUX/2. PERMISOS Y ATRIBUTOS/2.2 PERMISOS ESPECIALES.md",
+    "APUNTES/1. LINUX/2. PERMISOS Y ATRIBUTOS/2.1 PERMISOS.md",
     "APUNTES/1. LINUX/1. COMANDOS/1.1 NAVEGACÍON Y GESTÍON.md",
     "APUNTES/1. LINUX/1. COMANDOS/1.6 REDES Y CONEXION.md",
     "APUNTES/1. LINUX/1. COMANDOS/1.5 COMPRESION Y EMPAQUETADO.md",
@@ -196,7 +185,6 @@
     "APUNTES/1. LINUX/1. COMANDOS/1.2 ARCHIVOS Y CONTENIDOS.md",
     "APUNTES/INTRODUCCIÓN.md",
     "APUNTES/1. LINUX/INTRODUCCIÓN A LINUX.md",
-    "APUNTES/1. LINUX/1. COMANDOS/1.0 INDICE.md",
     "ramificacion.txt",
     "journalctl.txt",
     "ARCHIVOS Y CONTENIDOS.md",
@@ -209,7 +197,6 @@
     "APUNTES/2. LINUX TUNING/2. POLYBAR - PICOM - ROFI",
     "APUNTES/2. LINUX TUNING/1. BSPWM Y SXHKD",
     "APUNTES/2. LINUX TUNING",
-    "APUNTES/1. LINUX/7. SCRIPTING EN BASH",
     "2025-09-07.md",
     "Sin título 1.canvas",
     "Sin título.canvas",
@@ -220,7 +207,6 @@
     "HACKING/Conceptos_Basicos/Modelo_OSI.md",
     "HACKING/Conceptos_Basicos/Direcciones_IP.md",
     "LINUX/Introduccion.md",
-    "LINUX/Scripting/Introduccion.md",
-    "LINUX/Scripting/Ejercicios/Ruleta.md"
+    "LINUX/Scripting/Introduccion.md"
   ]
 }
