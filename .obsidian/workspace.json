@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "APUNTES/1. LINUX/3. SISTEMA Y CONFIGURACION/3.1.1 INTRODUCCION.md",
+                "file": "APUNTES/1. LINUX/3. SISTEMA Y CONFIGURACION/3.1.3 SCRIPTING EN BASH.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.1.1 INTRODUCCION"
+              "title": "3.1.3 SCRIPTING EN BASH"
             }
           }
         ]
@@ -171,8 +171,11 @@
   },
   "active": "82715fad33f5267e",
   "lastOpenFiles": [
-    "APUNTES/1. LINUX/1. COMANDOS/1.0 INDICE.md",
+    "APUNTES/1. LINUX/3. SISTEMA Y CONFIGURACION/3.1.2 ARCHIVOS Y CONTENIDO.md",
+    "APUNTES/1. LINUX/3. SISTEMA Y CONFIGURACION/3.1.3 SCRIPTING EN BASH.md",
     "APUNTES/1. LINUX/3. SISTEMA Y CONFIGURACION/3.1.1 INTRODUCCION.md",
+    "APUNTES/1. LINUX/INTRODUCCIÓN A LINUX.md",
+    "APUNTES/1. LINUX/1. COMANDOS/1.0 INDICE.md",
     "APUNTES/1. LINUX/3. SISTEMA Y CONFIGURACION/3.1 CONTROL DEL SISTEMA",
     "APUNTES/1. LINUX/2. PERMISOS Y ATRIBUTOS/2.3 ATRIBUTOS EXTENDIDOS.md",
     "APUNTES/1. LINUX/2. PERMISOS Y ATRIBUTOS/2.2 PERMISOS ESPECIALES.md",
@@ -184,7 +187,6 @@
     "APUNTES/1. LINUX/1. COMANDOS/1.3 PERMISOS  Y USUARIOS.md",
     "APUNTES/1. LINUX/1. COMANDOS/1.2 ARCHIVOS Y CONTENIDOS.md",
     "APUNTES/INTRODUCCIÓN.md",
-    "APUNTES/1. LINUX/INTRODUCCIÓN A LINUX.md",
     "ramificacion.txt",
     "journalctl.txt",
     "ARCHIVOS Y CONTENIDOS.md",
@@ -206,7 +208,6 @@
     "HACKING/Conceptos_Basicos/Puertos_TCP_UDP.md",
     "HACKING/Conceptos_Basicos/Modelo_OSI.md",
     "HACKING/Conceptos_Basicos/Direcciones_IP.md",
-    "LINUX/Introduccion.md",
-    "LINUX/Scripting/Introduccion.md"
+    "LINUX/Introduccion.md"
   ]
 }
